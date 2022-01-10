@@ -46,11 +46,11 @@ class Game {
     }
 
     getPlayers = async () => {
-        return fetch('https://reactmarathon-api.herokuapp.com/api/mk/players', { method: 'GET' }).then(responce => responce.json());
+        return fetch('http://reactmarathon-api.herokuapp.com/api/mk/players', { method: 'GET' }).then(responce => responce.json());
     }
 
     getPlayerFromComputer = async () => {
-        return fetch('https://reactmarathon-api.herokuapp.com/api/mk/player/choose', { method: 'GET' }).then(responce => responce.json());
+        return fetch('http://reactmarathon-api.herokuapp.com/api/mk/player/choose', { method: 'GET' }).then(responce => responce.json());
     }
 
     zeroStepGame = (player1, player2) => {
