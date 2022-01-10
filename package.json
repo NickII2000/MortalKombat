@@ -1,0 +1,17 @@
+{
+  "name": "MortalKombat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://NickII2000/github.io/MortalKombat",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
