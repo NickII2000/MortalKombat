@@ -94,7 +94,7 @@ class Game {
     }
 
     getPlayersAction = async ({ hit, defence } = this.heroAttack()) => {
-        return await fetch('http://reactmarathon-api.herokuapp.com/api/mk/player/fight', {
+        return await fetch('https://reactmarathon-api.herokuapp.com/api/mk/player/fight', {
             method: 'POST',
             body: JSON.stringify({
                 hit,

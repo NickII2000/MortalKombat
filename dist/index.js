@@ -20,7 +20,7 @@ const createElement = (tag, className) => {
 function createEmptyPlayerBlock() {
     const el = createElement('div', ['character', 'div11', 'disabled']);
     const img = createElement('img');
-    img.src = 'http://reactmarathon-api.herokuapp.com/assets/mk/avatar/11.png';
+    img.src = 'https://reactmarathon-api.herokuapp.com/assets/mk/avatar/11.png';
     el.append(img);
     $parent.append(el);
 }
