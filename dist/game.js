@@ -239,7 +239,7 @@ class Game {
         $reloadButton.textContent = "Restart";
 
         $reloadButton.addEventListener('click', function () {
-            window.location.pathname = 'https://NickII2000/github.io/MortalKombat/index.html';
+            window.location.pathname = 'MortalKombat/index.html';
         });
 
         $divReloadButton.append($reloadButton);
