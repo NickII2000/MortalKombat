@@ -62,7 +62,7 @@ async function init() {
             localStorage.setItem('player1', JSON.stringify(item));
             el.classList.add('active');
             setTimeout(() => {
-                window.location.pathname = 'arenas.html';
+                window.location.pathname = 'https://NickII2000/github.io/MortalKombat/arenas.html';
             }, 1000);
         });
 
